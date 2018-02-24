@@ -1,6 +1,6 @@
 # Welcome to the Upstandr Project
 
-## HACK THE BULLY; Anti-Cyberbullying Hackathon | A TACKYBOX PROJECT
+## HACK THE BULLY; Anti-Cyberbullying Hackathon | Inspired my TackyBox
 
 ### GROUP NAME: CYBERBULLY BOX
 #### TEAM MEMBERS:  
