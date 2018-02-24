@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Quote from './Quote/Quote'
 class StudentDashboard extends Component{
   render(){
     return(
@@ -37,7 +36,7 @@ class StudentDashboard extends Component{
           <div className="quotes-box col-md-6  mb-4">
             <h3>Message for the day</h3>
             </div>
-            <Quote />
+            <h2>Nothing is impossible, the word itself says “I'm possible” <small>—Audrey Hepburn.</small></h2>
             <div className="col-md-6  mb-4"></div>
           </div>
       </div>
