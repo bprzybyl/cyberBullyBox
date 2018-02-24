@@ -21,10 +21,10 @@ class Home extends Component{
       <li><a href='https://www.mentalhelp.net/articles/depression-hotline/'>Depression Hotline Number</a></li>
       <li><a href='https://teenlineonline.org/youth-yellow-pages/bullying-2/?gclid=CjwKCAiAlL_UBRBoEiwAXKgW51P-A7kjltboqYcZHfIwfSaarG_AqB2XV3HLLDEY7Ng6GeajY0PU4xoCSpAQAvD_BwE'>Teenlineonline</a></li>
     </ul>
-  </div>
+    </div>
 
-</div>
-      </div>
+    </div>
+    </div>
     )
   }
 
