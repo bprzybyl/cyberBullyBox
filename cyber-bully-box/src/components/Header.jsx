@@ -19,12 +19,6 @@ class Header extends Component{
                 <li className="nav-item active">
                   <Link className="nav-link" to={'/Login'}>Login</Link>
                 </li>
-                <li className="nav-item active">
-                  <a className="nav-link" href="#">Services</a>
-                </li>
-                <li className="nav-item active">
-                  <a className="nav-link" href="#">Contact</a>
-                </li>
             </ul>
           </div>
       </div>
