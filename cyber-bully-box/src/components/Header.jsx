@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/Header.css'
-
+import {Link} from 'react-router-dom';
 class Header extends Component{
   render(){
     return(
@@ -12,14 +12,12 @@ class Header extends Component{
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
-              <ul className="navbar-nav ml-auto">
-                <li className="nav-item active">
-                <a className="nav-link" href="#">Home
-            <span className="sr-only">(current)</span>
-          </a>
+        <ul className="navbar-nav ml-auto">
+        <li className="nav-item active">
+          <Link className="nav-link" to={'/'}>Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">About</a>
+          <Link className="nav-link" to={'/Login'}>Logon</Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Services</a>

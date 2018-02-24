@@ -2,14 +2,14 @@ import React, {Component} from 'react'
 import Header from './Header';
 import Footer from './Footer';
 import '../css/Base.css'
+import Routes from '../config/Routes'
+
 class Base extends Component{
   render(){
     return(
       <div>
         <Header />
-        <div>
-          <h1 id='hello'>Hello World</h1>
-        </div>
+          {Routes}
         <Footer />
       </div>
     )
