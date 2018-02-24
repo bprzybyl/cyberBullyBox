@@ -10,7 +10,7 @@
 
 
 #### OUR WHY:
-- DANIEL:  "     "
+- DANIEL:  "I want to establish a community dedicated to the prevention of Cyberbullying"
 
 - KIANNA: "        "
 
