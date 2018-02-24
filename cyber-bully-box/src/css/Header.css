@@ -1,3 +1,6 @@
 nav{
   background-color: purple;
 }
+.logout-link{
+  float: right;
+}

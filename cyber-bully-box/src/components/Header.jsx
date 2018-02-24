@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../css/Header.css'
 import {Link} from 'react-router-dom';
 class Header extends Component{
+
   render(){
     return(
       <div className='header'>
@@ -22,6 +23,11 @@ class Header extends Component{
                 <li className="nav-item active">
                   <Link className="nav-link" to={'/About'}>About</Link>
                 </li>
+            </ul>
+            <ul className="navbar-nav logout-link">
+              <li className="nav-item active">
+                <Link className="nav-link" to={'/'}>Logout</Link>
+              </li>
             </ul>
           </div>
       </div>
