@@ -17,7 +17,7 @@
 - BROOKS: "Cyberbullying affects anyone who uses the internet.  There should be some tools to help shield kids from those who do not understand the effect of their actions, and also allow others to do the right thing when they observe it."
 
 
-####THE UPSTANDR MISSION STATEMENT
+#### THE UPSTANDR MISSION STATEMENT
 
 -In the society of our youth, it has become an alarming statistic of cyberbullying and associated suicide deaths as a result.  Clearly, this is an issue for our community and for parents who have children who are being bullied on various social media networks.
 
@@ -32,10 +32,6 @@ Please join us in this battle to take down the “crown” of cyberbullying and 
 Thank you for being an Upstandr, we couldn’t do this without you.
 
     The Cyberbully Box Team
-    
-    
+
+
 #####
-    
-
-
-

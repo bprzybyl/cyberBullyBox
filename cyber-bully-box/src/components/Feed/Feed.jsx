@@ -6,24 +6,24 @@ class Feed extends Component{
     this.state = {
       currentItem: '',
       username: '',
-      items: []
+      posts: []
     }
   }
 
   componentDidMount() {
-    const itemsRef = firebase.database().ref('items');
+    const postsRef = firebase.database().ref('posts');
     itemsRef.on('value', (snapshot) => {
-      let items = snapshot.val();
+      let posts = snapshot.val();
       let newState = [];
-      for (let item in items) {
+      for (let post in posts) {
         newState.push({
-          id: item,
-          title: items[item].title,
-          user: items[item].user
+          id: post,
+          title: posts[post].title,
+          user: posts[post].user
         });
       }
       this.setState({
-        items: newState
+        posts: newState
       });
     });
   }
@@ -35,14 +35,16 @@ class Feed extends Component{
           <section className='display-post'>
               <div className="wrapper">
                 <ul>
-                  {this.state.posts.map((post) => {
-                    return (
-                      <li key={post.id}>
-                        <h3>{post.title}</h3>
-                      </li>
-                    )
-                  })}
-                </ul>
+                     {this.state.posts.map((post) => {
+                       return (
+                         <li key={post.id}>
+                           <h3>{post.title}</h3>
+                           <p>{post.user}</p>
+                         </li>
+                       )
+                     })}
+                   </ul>
+
               </div>
           </section>
         </div>
