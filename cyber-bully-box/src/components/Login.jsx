@@ -5,7 +5,7 @@ class Login extends Component{
     return(
       <div className="container">
         <div className="row">
-          <div className="col">
+          <div id='login-form' className="col">
             <p className="h1">New User?</p>
             <Link to={'/register'}><p className="h2">Register Here!</p></Link>
           </div>
@@ -27,7 +27,7 @@ class Login extends Component{
               </form>
 
               <div className="form-group">
-                <Link to={'/dashboard'}><button type="submit" className="btn btn-primary">Submit</button></Link>
+                <Link to={'/student-dashboard'}><button type="submit" className="btn btn-primary">Submit</button></Link>
               </div>
 
           </div>
