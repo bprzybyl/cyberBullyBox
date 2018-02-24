@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Register extends Component{
   render(){
     return(
-      <div>Register</div>
+      <div>Remove this and paste your code</div>
     )
   }
 }
