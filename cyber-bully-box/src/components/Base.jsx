@@ -7,7 +7,7 @@ class Base extends Component{
     return(
       <div>
         <Header />
-        <div>Hello from the Base component</div>
+        <div>This is a base component</div>
         <Footer />
       </div>
     )
