@@ -1,0 +1,6 @@
+.resource-list{
+  list-style:decimal;
+}
+.resource-list li{
+  font-size: 20px;
+}
