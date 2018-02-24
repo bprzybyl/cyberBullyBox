@@ -31,10 +31,10 @@ class Home extends Component{
       <li><a href='https://teenlineonline.org/youth-yellow-pages/bullying-2/?gclid=CjwKCAiAlL_UBRBoEiwAXKgW51P-A7kjltboqYcZHfIwfSaarG_AqB2XV3HLLDEY7Ng6GeajY0PU4xoCSpAQAvD_BwE'>Teenlineonline</a></li>
       <li><a href='https://www.crisisprevention.com/Blog/November-2011/10-Ways-to-Help-Reduce-Bullying-in-Schools'>10 Ways to Help Reduce Bullying in Schools</a></li>
       <li><a href='http://www.stompoutbullying.org/information-and-resources/parents-page/what-do-if-your-child-bully'>What To Do If Your Child Is A Bully</a></li>
-      <li><a href='https://nobullying.com/depression-support-groups-for-victims-of-bullying/'>Depression Support Groups for Victims of Bullying</a></li>
+      <li><a href='https://nobullying.com/depression-support-groups-for-victims-of-bullying/'>Support Groups for Victims of Bullying</a></li>
       <li><a href='https://www.stopbullying.gov/'>StopBullying.gov</a></li>
       <li><a href='http://www.pacer.org/bullying/'>PACER's National Bully Prevention Center</a></li>
-      <li><a href='https://www.psychotherapynetworker.org/blog/details/1087/how-to-create-an-anti-bullying-support-group'>How to Create an Anti-Bullying Support Group</a></li>
+      <li><a href='https://www.psychotherapynetworker.org/blog/details/1087/how-to-create-an-anti-bullying-support-group'>Create an Anti-Bullying Support Group</a></li>
       <li><a href='http://www.nea.org/tools/lessons/teaching-students-to-prevent-bullying.html'>Teaching Students to Prevent Bullying</a></li>
     </ul>
     </div>
