@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Feed from './Feed/Feed'
+import '../css/AdminDashboard.css'
 
 class AdminDashboard extends Component{
   render(){
@@ -16,13 +17,17 @@ class AdminDashboard extends Component{
           <div className="row">
               <div className="col-md-5">
                 <h1>Hello Robert</h1>
-                <h4>Your on the Dashboard</h4>
-                <h4><small> Here you can see what students are saying about their experience today</small></h4>
-                  <ul>
-                    <li><a href="">Student-Guardian Directory</a></li>
-                    <p>Quickly finds a Student's Legal Guardian</p>
-                    <li><a href="">Safety Officer Contact Information</a></li>
-                    <p>Contact Info for School Safety Offical</p>
+                <h4>You're on the Dashboard</h4>
+                <h4><small>Here are some quick resources</small></h4>
+                  <ul className='resource-list'>
+                    <li><p>Quickly finds a Student's Legal Guardian</p>
+                      <ul><li><a href="">Student-Guardian Directory</a></li></ul>
+                    </li>
+
+
+                    <li><p>Contact Info for School Safety Offical</p></li>
+                    <a href="">Safety Officer Contact Information</a>
+
                     <li><a href="">Crisis Response Protocol</a></li>
                     <p>Steps to take when trouble brewing</p>
                     <li><a href="">Violence Prevention Actions</a></li>
