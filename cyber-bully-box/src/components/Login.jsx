@@ -22,12 +22,14 @@ class Login extends Component{
               </div>
               <div className="form-group">
                 <input type="checkbox" id="exampleCheck1" />
-                <label className="form-check-label" for="exampleCheck1">Keep me logged in</label>
+                <label className="form-check-label" for="exampleCheck1"> Keep me logged in</label>
               </div>
+              </form>
+
               <div className="form-group">
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <Link to={'/dashboard'}><button type="submit" className="btn btn-primary">Submit</button></Link>
               </div>
-            </form>
+
           </div>
         </div>
       </div>
