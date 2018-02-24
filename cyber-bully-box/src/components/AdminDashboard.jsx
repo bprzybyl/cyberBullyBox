@@ -24,18 +24,25 @@ class AdminDashboard extends Component{
                       <ul><li><a href="">Student-Guardian Directory</a></li></ul>
                     </li>
 
+                    <li><p>Contact the School Safety Offical</p>
+                      <ul><li><a href="">Safety Officer Contact Information</a></li></ul>
+                    </li>
 
-                    <li><p>Contact Info for School Safety Offical</p></li>
-                    <a href="">Safety Officer Contact Information</a>
+                    <li><p>Steps to take when trouble brewing</p>
+                      <ul><li><a href="">Crisis Response Protocol</a></li></ul>
+                    </li>
 
-                    <li><a href="">Crisis Response Protocol</a></li>
-                    <p>Steps to take when trouble brewing</p>
-                    <li><a href="">Violence Prevention Actions</a></li>
-                    <p>Guide for using digital evidence to prevent altercations</p>
-                    <li><a href="">Legislative Requirements</a></li>
-                    <p>Resources explaining legislative expectations</p>
-                    <li><a href="">Anti-Bullying Materials for Guardians</a></li>
-                    <p>Digital Materials for Distribution to Parents</p>
+                    <li><p>Guide for using digital evidence to prevent altercations</p>
+                      <ul><li><a href="">Violence Prevention Actions</a></li></ul>
+                    </li>
+
+                    <li><p>Resources explaining legislative expectations</p>
+                      <ul><li><a href="">Legislative Requirements</a></li></ul>
+                    </li>
+
+                    <li><p>Digital Materials for Distribution to Parents</p>
+                      <ul><li><a href="">Anti-Bullying Materials for Guardians</a></li></ul>
+                    </li>
                   </ul>
                 </div>
             <div className="col-md-7">
