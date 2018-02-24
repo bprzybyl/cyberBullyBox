@@ -20,7 +20,8 @@ class Feed extends Component{
         newState.push({
           id: post,
           title: posts[post].title,
-          user: posts[post].user
+          user: posts[post].user,
+          time: posts[post].time
         });
       }
       this.setState({
@@ -40,7 +41,7 @@ class Feed extends Component{
                        return (
                          <li key={post.id}>
                            <h3>{post.title}</h3>
-                           <p>{post.user}</p>
+                           <p>{post.user} reported at <small>{post.time}</small></p>
                          </li>
                        )
                      })}
