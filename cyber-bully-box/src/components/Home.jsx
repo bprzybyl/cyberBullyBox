@@ -20,7 +20,7 @@ class Home extends Component{
     <p>A community dedicated to helping students and parents prevent verbal, cyber, and physical bullying.
       If you witness someone being bullied, do not join in on the bullying, offer
       support and stand up for the person being bullied, and encourage him/her to seek
-      help and support. If you are a victim of bullying, ask for help. Please see below for
+      help and support. If you are a victim of bullying, ask for help.</p> <p>Please see below for
       additional resources and to learn how to prevent bullying.
     </p>
     <h3 className="my-3">Important Resources</h3>
