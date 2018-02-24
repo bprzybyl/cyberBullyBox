@@ -20,6 +20,9 @@ class AdminDashboard extends Component{
                 <h1>Hello Robert</h1>
                 <h4>Your on the Dashboard</h4>
                 <h4><small> Here you can see what students are saying about their experience today</small></h4>
+                <ul>
+                  <li><a href="">Student Parents Directory</a></li>
+                </ul>
             </div>
           </div>
 
