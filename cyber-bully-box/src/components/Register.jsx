@@ -39,16 +39,16 @@ class Register extends Component{
                   <input type="text" className="form-control" aria-describedby="usernameHelp" placeholder="Pick a Username..." />
                 </div>
                 <div className="form-group">
-                  <label>Password</label>
-                  <input type="password" className="form-control" aria-describedby="passowrd" placeholder="Enter a Password..." />
-                </div>
-                <div className="form-group">
                   <label>School Name</label>
                   <input type="text" className="form-control" aria-describedby="usernameHelp" placeholder="Enter Your School Name..." />
                 </div>
                 <div className="form-group">
                   <label for="exampleInputPassword1">Email</label>
                   <input type="email" className="form-control" placeholder="Enter Your Email..." />
+                </div>
+                <div className="form-group">
+                  <label>Password</label>
+                  <input type="password" className="form-control" aria-describedby="passowrd" placeholder="Enter a Password..." />
                 </div>
                 </form>
               <div className="form-group">
