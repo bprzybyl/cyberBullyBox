@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../css/Home.css'
+import CoverImage from '../imgs/cover.png'
 
 class Home extends Component{
   render(){
@@ -8,7 +9,7 @@ class Home extends Component{
         <div className="row">
 
   <div className="col-md-8">
-    <img className="img-fluid" src="http://placehold.it/750x500" alt="Cover Photo" />
+    <img className="img-fluid" src={CoverImage} alt="Cover Photo" />
   </div>
 
   <div className="col-md-4">
