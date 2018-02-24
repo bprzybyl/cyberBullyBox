@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import firebase from './Database-Config/firebase.js';
+import firebase from '../Database-Config/firebase.js';
+import './Feed.css'
 class Feed extends Component{
   constructor() {
     super();
@@ -12,7 +13,7 @@ class Feed extends Component{
 
   componentDidMount() {
     const postsRef = firebase.database().ref('posts');
-    itemsRef.on('value', (snapshot) => {
+    postsRef.on('value', (snapshot) => {
       let posts = snapshot.val();
       let newState = [];
       for (let post in posts) {
@@ -34,7 +35,7 @@ class Feed extends Component{
         <div className='container'>
           <section className='display-post'>
               <div className="wrapper">
-                <ul>
+                <ul className="feed-posts">
                      {this.state.posts.map((post) => {
                        return (
                          <li key={post.id}>

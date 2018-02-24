@@ -1,0 +1,11 @@
+.feed-posts{
+  list-style: none;
+  width: 600px;
+  border: 2px solid purple;
+  border-radius: 5px;
+  text-align: center;
+}
+.feed-posts li{
+  text-align: left;
+  padding-right: 10px;
+}

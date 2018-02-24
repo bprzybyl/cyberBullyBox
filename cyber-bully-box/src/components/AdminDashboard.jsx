@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Feed from './Feed/Feed'
 
 class AdminDashboard extends Component{
   render(){
@@ -13,9 +14,6 @@ class AdminDashboard extends Component{
 
 
           <div className="row">
-            <div className="col-md-7">
-              <div>This is what the daily feed looks like</div>
-              </div>
               <div className="col-md-5">
                 <h1>Hello Robert</h1>
                 <h4>Your on the Dashboard</h4>
@@ -24,6 +22,9 @@ class AdminDashboard extends Component{
                   <li><a href="">Student Parents Directory</a></li>
                 </ul>
             </div>
+            <div className="col-md-7">
+              <Feed />
+           </div>
           </div>
 
       </div>
