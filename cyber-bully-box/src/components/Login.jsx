@@ -6,6 +6,10 @@ class Login extends Component{
       <div className='Login'>
 
         This is the login component, we will need a form here
+        <form>
+          
+
+        </form>
 
       </div>
     )
